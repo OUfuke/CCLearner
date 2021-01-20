@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  bcb:
+    build: CCLearner_docker
+    image: ccl_docker
+    tty: true
+    volumes: 
+      - ./Desktop:/home/cclearner/Desktop
+      - ./data:/home/cclearner/data
