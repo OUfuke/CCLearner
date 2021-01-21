@@ -1,4 +1,4 @@
-set -eu
+#!/bin/bash
 
 version="10"
 sed -e 's/peer/trust/g' /etc/postgresql/$version/main/pg_hba.conf > a.txt

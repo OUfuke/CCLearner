@@ -18,7 +18,7 @@ RUN apt install -y software-properties-common
 COPY ./OracleJDK/jdk-8u271-linux-x64.tar.gz /
 RUN mkdir -p /usr/lib/jvm
 WORKDIR /usr/lib/jvm
-RUN tar xvfo /jdk-8u271-linux-x64.tar.gz
+RUN tar xfo /jdk-8u271-linux-x64.tar.gz
 RUN ln -s jdk1.8.0_271 java-8-oracle-amd64
 
 RUN apt install -y gradle

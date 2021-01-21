@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  bcb:
+  cclearner:
     build: CCLearner_docker
     image: ccl_docker
     tty: true
