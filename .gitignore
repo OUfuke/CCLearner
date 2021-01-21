@@ -1,4 +1,5 @@
 /data/*
 !/data/README.md
 /CCLearner_docker/OracleJDK/*
+!/CCLearner_docker/OracleJDK/README.md
 *DS_Store
